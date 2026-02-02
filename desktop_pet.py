@@ -27,7 +27,6 @@ import time
 from saveconfig import *
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
-DB_PATH = "/home/yannick/Projects/DesktopPet/Pet/Desktop_pet.db"
 
 # =========================
 # DB-Hilfsfunktionen
