@@ -23,25 +23,15 @@ from todo_viewer import ToDoViewer
 from wakeup import WakeWordDetector
 from PyQt5.QtCore import pyqtSignal
 import time 
-
 from saveconfig import *
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
+DB_PATH = "/home/yannick/Projects/DesktopPet/Pet/Desktop_pet.db"
 
 # =========================
 # DB-Hilfsfunktionen
 # =========================
-def get_pg_connection():
-    return psycopg2.connect(
-    host="db.qkmtybzdthrpjfkbgskw.supabase.co",
-    port=5432,
-    dbname="postgres",
-    user="postgres",
-    password="AfFiMaCeL26!",
-    connect_timeout=10,
-    options="-c search_path=public",
-    sslmode="require",
-)
+
 
 def fetch_termine(dayfilter="no"):
     if dayfilter == "no":

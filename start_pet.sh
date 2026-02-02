@@ -2,7 +2,7 @@
 # start_pet.sh – startet main.py automatisch mit 2 Sekunden Verzögerung
 
 # 2 Sekunden warten
-sleep 0
+sleep 2
 
 # Ins Projektverzeichnis wechseln
 cd ~/Projects/DesktopPet/Pet/Source
