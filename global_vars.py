@@ -1,0 +1,2 @@
+# Gemeinsame globale Variablen
+clones = []
