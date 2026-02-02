@@ -24,6 +24,7 @@ from wakeup import WakeWordDetector
 from PyQt5.QtCore import pyqtSignal
 import time 
 
+from saveconfig import *
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 DB_PATH = "/home/yannick/Projects/DesktopPet/Pet/Desktop_pet.db"

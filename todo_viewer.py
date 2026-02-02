@@ -1,9 +1,9 @@
 from PyQt5 import QtWidgets, QtCore
 from datetime import datetime
 import sqlite3
-from config import get_pg_connection
-from config import *
 
+from config import *
+from saveconfig import *
 
 
 def parse_date(value):

@@ -4,6 +4,7 @@ from config import get_pg_connection  # liefert psycopg2.Connection
 import sqlite3
 from datetime import datetime
 from config import *
+from saveconfig import *
 
 def parse_date(value):
     return datetime.strptime(value, "%Y-%m-%d").date()

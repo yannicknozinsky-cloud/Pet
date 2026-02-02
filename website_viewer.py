@@ -2,7 +2,7 @@ from PyQt5 import QtWidgets, QtCore
 import psycopg2
 from config import * 
 import sqlite3
-
+from saveconfig import *
 
 
 class WebsiteViewer(QtWidgets.QDialog):
